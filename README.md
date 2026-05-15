@@ -3,9 +3,6 @@
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/Choubi-Mohammed/myconfig-vim-13?style=for-the-badge)](https://github.com/Choubi-Mohammed/myconfig-vim-13/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Choubi-Mohammed/myconfig-vim-13?style=for-the-badge)](https://github.com/Choubi-Mohammed/myconfig-vim-13/network)
-[![GitHub issues](https://img.shields.io/github/issues/Choubi-Mohammed/myconfig-vim-13?style=for-the-badge)](https://github.com/Choubi-Mohammed/myconfig-vim-13/issues)
-[![License: Unlicensed](https://img.shields.io/badge/license-Unlicensed-blue.svg?style=for-the-badge)](https://unlicense.org/)
 
 **A simple and efficient Vim configuration tailored for 1337 school standards, focusing on `norm` compliance and C programming comfort.**
 
@@ -58,7 +55,7 @@ Ensure you have the following installed on your system:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/Choubi-Mohammed/myconfig-vim-13.git
+    git clone https://github.com/justshobee/myconfig-vim-13.git
     cd myconfig-vim-13
     ```
 
@@ -122,30 +119,12 @@ The core of this configuration resides in the `setup_vim_13.sh` script, which ge
     -   **Color Scheme**: Modify `colorscheme dracula` to any other installed scheme (e.g., `gruvbox`) or add new `Plug` lines for more themes.
     -   **Plugins**: Add or remove `Plug 'author/plugin'` lines within the `call plug#begin()` and `call plug#end()` block. After modifying, run `:PlugInstall` inside Vim to install new plugins, or `:PlugClean` to remove unused ones.
 
-## 🤝 Contributing
-
-We welcome contributions to improve this Vim configuration! If you have suggestions for new plugins, better settings, or scripts, please feel free to:
-
-1.  **Fork** the repository.
-2.  **Create a new branch**: `git checkout -b feature/your-feature-name`.
-3.  **Make your changes**.
-4.  **Commit your changes**: `git commit -m 'feat: Add new feature'`.
-5.  **Push to the branch**: `git push origin feature/your-feature-name`.
-6.  **Open a Pull Request**.
-
-## 📄 License
-
-This project does not have an explicit license file declared. Users are generally advised to contact the repository owner for licensing clarification, or assume standard GitHub terms which may not grant permissions for commercial use.
 
 ## 🙏 Acknowledgments
 
 -   **Vim**: The powerful text editor itself.
 -   **vim-plug**: A minimalist Vim plugin manager.
 -   **All the amazing plugin authors**: For their contributions that make Vim even better.
-
-## 📞 Support & Contact
-
--   🐛 **Issues**: For bug reports or feature requests, please use the [GitHub Issues](https://github.com/Choubi-Mohammed/myconfig-vim-13/issues) page.
 
 ---
 
